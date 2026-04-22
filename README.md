@@ -1,8 +1,8 @@
 # Ex.No: 01A PLOT A TIME SERIES DATA
-###  Date: 
+###  Date: 22.04.2026
 
 # AIM:
-Dataset Name = Customer_Transactions
+ #### Dataset Name = Customer_Transactions
 
 To Develop a python program to Plot a time series data (population/ market price of a commodity
 /temperature.
