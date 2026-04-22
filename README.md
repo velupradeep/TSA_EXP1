@@ -12,6 +12,31 @@ To Develop a python program to Plot a time series data (population/ market price
 5. Display the graph.
 # PROGRAM:
 
+```
+Name: PRADEEP V
+Reg No. 212223240119
+
+```
+
+```
+from matplotlib import pyplot as pyplot
+import pandas as pd
+
+df = pd.read_csv("/content/customer")
+
+df.head()
+
+print(df.dtypes)
+
+pyplot.xlabel('customer_id')
+pyplot.ylabel('annual_income')
+
+pyplot.plot(df.index, df['annual_income'], label='Annual Income')
+pyplot.legend()
+pyplot.grid(True)
+
+```
+
 
 
 
@@ -23,6 +48,8 @@ To Develop a python program to Plot a time series data (population/ market price
 
 
 # OUTPUT:
+<img width="842" height="552" alt="image" src="https://github.com/user-attachments/assets/082cb9ec-c84b-498f-9346-8eae9b8d464f" />
+
 
 
 
